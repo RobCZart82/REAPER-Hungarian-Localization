@@ -1,0 +1,116 @@
+MAGYAR V5.6 – FRISSÍTÉS REAPER 7.86-HOZ
+2026. november 14.
+
+KIADÁS ÉS FORRÁS
+Alap: Hungarian - Magyar V5.5.ReaperLangPack (REAPER 7.84 sablon).
+Új csomag: Hungarian - Magyar V5.6.ReaperLangPack
+Célverzió: REAPER 7.86, hivatalos kiadás: 2026. november 5.
+Hivatalos kiadási oldal: https://www.reaper.fm/download.php
+Letöltött hivatalos kiadási sablon: https://landoleet.org/old/reaper786.ReaperLangPack
+
+MI VÁLTOZOTT?
+A teljes kommentelt angol sablonváz a 7.84-esről a 7.86-os kiadáshoz frissült.
+A teljes sablonban 131 új, 24 megszűnt és 0 azonos kulcshoz tartozó, megváltozott forrásszöveg található.
+E változások egyike sem érinti a csomag korábbi 49 aktív szekciójának bejegyzéskészletét vagy forrásszövegeit.
+Mind a 2689 aktív bejegyzés magyar értéke változatlanul megmaradt.
+Újonnan lefordított bejegyzés: 0. Újonnan aktivált szekció: 0.
+A verziójelölés és a dokumentáció V5.6-ra, illetve REAPER 7.86-ra frissült.
+A kiadás nem pusztán a régi fájl átnevezése: a teljes 7.86-os sablon sorai, kulcsai és szekciói adják az új fájl alapját.
+
+FORDÍTÁSI HATÁROK
+49 aktív szekció: 47 menüszekció és két örökölt nem menüszekció (DLG_629, prefs_extension).
+A két örökölt nem menüszekció változatlan. Új fix ablakfordítás, eszköztár-fordítás és [common] fordítás nem került bekapcsolásra.
+Az új csomagkezelési és egyéb, eddig inaktív szekciók angol sablonsorai inaktívak maradtak.
+A REAPER 7.86 kiadási jegyzékében szereplő újdonság nem feltétlenül jelent új kulcsot a nálunk honosított menüszekciókban.
+Ablakméret, vezérlőméret és skálázási felülbírálás nem került hozzáadásra.
+
+ELLENŐRZÉSI EREDMÉNY
+Érvényes UTF-8, BOM nélkül, egységes CRLF sorvégekkel. 848 szekciófejléc és 26127 fizikai kulcssor sorrendje egyezik a 7.86 sablonéval.
+Mind a 49 aktív szekció teljes a 7.86-os sablonhoz képest. Nincs ismeretlen vagy ismétlődő aktív kulcs.
+Nincs eltérés a formátumjelölőkben, escape-szekvenciákban, gyorsbillentyű-utótagokban és az & jelek darabszámában.
+A nem honosított szekciók bejegyzései pontosan a 7.86 sablon inaktív sorait követik.
+A verziófejlécen kívüli nem bejegyzésjellegű tartalom megfelel az új sablonnak; méretezési felülbírálás nincs hozzáadva.
+A V5.5 eredeti csomagja és dokumentációja változatlanul megmaradt.
+
+KORLÁTOK
+Élő REAPER-felületi és platformonkénti próba nem történt; a csomagot nem telepítettük, a REAPER-t nem indítottuk újra.
+A fájlszintű kompatibilitás-ellenőrzés nem garantálja minden menü tényleges képernyőn való elférését és minden fordítás hibátlanságát.
+A korábban eredeti alakban megőrzött Solo2 feliratok és technikai azonosítók változatlanok.
+
+AKTÍV SZEKCIÓK
+DLG_629: 6
+MENU_102: 604
+MENU_136: 30
+MENU_144: 86
+MENU_175: 64
+MENU_300: 151
+MENU_301: 307
+MENU_302: 48
+MENU_303: 17
+MENU_304: 60
+MENU_305: 59
+MENU_306: 11
+MENU_307: 4
+MENU_308: 18
+MENU_309: 5
+MENU_311: 11
+MENU_312: 19
+MENU_315: 11
+MENU_316: 61
+MENU_318: 2
+MENU_319: 59
+MENU_324: 4
+MENU_328: 6
+MENU_330: 3
+MENU_331: 3
+MENU_333: 5
+MENU_334: 8
+MENU_335: 2
+MENU_337: 11
+MENU_338: 9
+MENU_342: 12
+MENU_346: 3
+MENU_355: 11
+MENU_356: 16
+MENU_361: 44
+explorer_MENU_103: 142
+explorer_MENU_104: 123
+explorer_menu: 48
+midi_MENU_103: 41
+midi_MENU_104: 213
+midi_MENU_105: 206
+midi_MENU_106: 29
+midi_MENU_108: 57
+midi_MENU_114: 5
+midi_MENU_119: 22
+midi_MENU_138: 5
+midi_MENU_139: 4
+midi_menu: 7
+prefs_extension: 17
+
+SABLONVÁLTOZÁSOK SZEKCIÓNKÉNT (ÚJ / MEGSZŰNT / MÓDOSULT KULCS)
+DLG_451: 5 / 4 / 0
+DLG_631: 3 / 0 / 0
+DLG_632: 6 / 0 / 0
+actions: 4 / 1 / 0
+colorchoose: 1 / 0 / 0
+common: 9 / 1 / 0
+configexport: 2 / 1 / 0
+configimport: 3 / 0 / 0
+import: 5 / 6 / 0
+mbox: 1 / 0 / 0
+mousemaps: 3 / 0 / 0
+packageimport: 13 / 0 / 0
+packageinstall: 45 / 0 / 0
+prefs_config: 12 / 0 / 0
+prefs_configchange: 5 / 0 / 0
+prefs_import_help: 2 / 3 / 0
+prefs_list: 1 / 0 / 0
+prefs_media: 3 / 3 / 0
+saveas: 5 / 5 / 0
+track: 1 / 0 / 0
+undo: 2 / 0 / 0
+
+V5.5 SHA-256: e9e51cb3843c774dac5c72eeb5f10578b7718e99b19d14793e8f50fc9b161c1a
+7.86 sablon SHA-256: 3e905c816e979de1ebaf0d41a6cc4f0d3dca4a186f49cbbd86de9acecb0a0c5f
+V5.6 SHA-256: 7b564bb0c2d0f0b918dd595c0cbdfe7d8f56957ed44612dc266e87818c5fc27f

@@ -1,0 +1,6 @@
+.DS_Store
+*.ReaperLangPack.bak
+*.tmp
+*.swp
+work/
+templates/
