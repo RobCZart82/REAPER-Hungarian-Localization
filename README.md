@@ -23,10 +23,12 @@ a jobb kattintásos menük, a MIDI-menük és a Media Explorer menüinek magyar�
 | Aktív bejegyzések | 2689 |
 | Ellenőrzés | Fájlszintű; élő REAPER-felületi próba nem történt |
 
-Az aktuális fájl a [langpack mappában](langpack/) található.
-[V5.6 közvetlen letöltése](https://raw.githubusercontent.com/RobCZart82/REAPER-Hungarian-Localization/main/langpack/Hungarian%20-%20Magyar%20V5.6.ReaperLangPack).
-Külön GitHub Release még nincs. Továbbadáskor a [LICENSE](LICENSE) és
-a [NOTICE](NOTICE.md) is maradjon a csomaggal.
+**[V5.6 letöltése – GitHub Release](https://github.com/RobCZart82/REAPER-Hungarian-Localization/releases/tag/v5.6)**
+
+A kiadás külön telepíthető `.ReaperLangPack` fájlt és a dokumentációt,
+licencet is tartalmazó ZIP-csomagot kínál. Az aktuális fejlesztési fájl a
+[langpack mappában](langpack/) található. Továbbadáskor a [LICENSE](LICENSE)
+és a [NOTICE](NOTICE.md) is maradjon a csomaggal.
 
 ## Fordítási elvek
 
