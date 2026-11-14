@@ -1,9 +1,11 @@
 # Közreműködés
 
-A projekt jelenleg privát előkészítés alatt áll. A licenc és a korábbi fordítás
-eredetének rendezéséig külső hozzájárulásokat nem kérünk és nem fogadunk el.
-Az alábbi technikai irányelvek a későbbi közös munkához készültek; nem jelentenek
-hozzájárulói licencmegállapodást.
+A hibajelzéseket és fordítási javaslatokat szívesen fogadjuk.
+Hozzájárulás beküldésével vállalod, hogy jogosult vagy azt átadni, és saját
+hozzájárulásodat a projekt [MIT licence](LICENSE) alatt bocsátod rendelkezésre.
+Harmadik féltől származó szöveget vagy kódot csak a forrás és az engedély
+feltüntetésével küldj be; eltérő licencű anyagról előbb egyeztessünk.
+A Cockos upstream tartalmának hatályát a [NOTICE](NOTICE.md) rögzíti.
 
 ## Fordítási szabályok
 

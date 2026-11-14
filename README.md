@@ -4,12 +4,10 @@ Hungarian language pack for REAPER — community-maintained, menu-focused locali
 
 ## Állapot
 
-**Előkészítés alatt, egyelőre privát repository.** A nyilvános kiadás előtt
-véglegesíteni kell a szerzői megjelölést és a választott licenc hatályát.
-A fenntartó a V3 alapfordítást saját munkaként megerősítette. A minél szabadabb
-felhasználáshoz az MIT licenc a javaslat, végleges jóváhagyásra várva.
-Jelenleg nem adunk új nyílt felhasználási engedélyt.
-Részletek: [Licenc és eredet](docs/LICENSING.md).
+**Nyilvános közösségi projekt.** A saját magyar fordítási hozzájárulások,
+dokumentáció és fejlesztőeszközök [MIT licenc](LICENSE) alatt használhatók.
+Copyright (c) 2026 RobCZart. A Cockos eredeti sablonanyagait nem licenceljük át.
+Részletek: [Licenc és eredet](docs/LICENSING.md) · [NOTICE](NOTICE.md).
 
 ## Magyar REAPER-felület
 
@@ -25,8 +23,10 @@ a jobb kattintásos menük, a MIDI-menük és a Media Explorer menüinek magyar�
 | Aktív bejegyzések | 2689 |
 | Ellenőrzés | Fájlszintű; élő REAPER-felületi próba nem történt |
 
-Az aktuális fájl a [langpack mappában](langpack/) található. Nyilvános GitHub
-Release még nincs; a terjesztés a jogosultságok és a licenc rendezése után indulhat.
+Az aktuális fájl a [langpack mappában](langpack/) található.
+[V5.6 közvetlen letöltése](https://raw.githubusercontent.com/RobCZart82/reaper-hungarian-localization/main/langpack/Hungarian%20-%20Magyar%20V5.6.ReaperLangPack).
+Külön GitHub Release még nincs. Továbbadáskor a [LICENSE](LICENSE) és
+a [NOTICE](NOTICE.md) is maradjon a csomaggal.
 
 ## Fordítási elvek
 
@@ -38,7 +38,7 @@ Release még nincs; a terjesztés a jogosultságok és a licenc rendezése után
 - Az elterjedt szakmai kifejezések és technikai azonosítók szükség szerint angolul maradnak.
 - Egy magyar menüpontból továbbra is angol párbeszédablak nyílhat meg.
 
-## Telepítés a későbbi nyilvános kiadásból
+## Telepítés
 
 1. Mentsd a munkádat, és őrizd meg a korábban használt nyelvi csomagodat.
 2. Húzd a letöltött `.ReaperLangPack` fájlt a REAPER ablakára.
@@ -82,9 +82,8 @@ This is an unofficial, menu-focused Hungarian localization of REAPER.
 V5.6 is aligned with the official REAPER 7.86 language template. It preserves
 2689 active entries in 49 sections. No live UI/platform testing has been performed.
 The maintainer confirmed that the original V3 translation is their own work.
-The repository remains private pending final approval of the proposed MIT license,
-attribution and scope before public distribution or accepting contributions.
-No open-source license has been granted at this stage.
+Project-authored Hungarian translation contributions, documentation and tools
+are available under the [MIT License](LICENSE). Copyright (c) 2026 RobCZart.
 
 REAPER itself, Cockos materials and third-party contributions are not relicensed
-by creating this repository. See [licensing status](docs/LICENSING.md).
+by this project. See [NOTICE](NOTICE.md) and [licensing details](docs/LICENSING.md).
